@@ -193,6 +193,9 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 vim.keymap.set('n', 'zz', 'zz6<C-e>', { desc = 'offset upper after zz' })
 -- jk escape insert mode
 vim.keymap.set('i', 'jk', '<Esc>', { desc = 'escape the insert mode' })
+vim.keymap.set('i', 'Jk', '<Esc>', { desc = 'escape the insert mode' })
+vim.keymap.set('i', 'jK', '<Esc>', { desc = 'escape the insert mode' })
+vim.keymap.set('i', 'JK', '<Esc>', { desc = 'escape the insert mode' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
